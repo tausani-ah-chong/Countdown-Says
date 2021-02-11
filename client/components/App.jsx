@@ -1,10 +1,12 @@
 import React from 'react'
 
+import Board from './Board'
+
 function App () {
   return (
-    <>
-      <h1>Countdown Says!</h1>
-    </>
+    <div>
+      <Board />
+    </div>
   )
 }
 

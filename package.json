@@ -14,7 +14,7 @@
     "start": "node server",
     "build": "npm run webpack",
     "server": "node server",
-    "test": "jest",
+    "test": "jest --watchAll",
     "knex": "knex --knexfile ./server/db/knexfile.js",
     "test:watch": "jest --watchAll",
     "webpack": "webpack --config ./client/webpack.config.js",
@@ -42,8 +42,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.21.17",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
     "sqlite3": "^5.0.1",
-    "superagent": "^6.1.0"
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

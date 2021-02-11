@@ -1,12 +1,9 @@
 import React from 'react'
 
-import Learners from './Learners'
-
-const App = () => {
+function App () {
   return (
     <>
-      <h1>Learners Rock!</h1>
-      <Learners />
+      <h1>Countdown Says!</h1>
     </>
   )
 }

@@ -1,0 +1,50 @@
+.container {
+  position:relative;
+  height:900px;
+  width:1000px;
+  border: solid black;
+}
+
+.red {
+  position: absolute;
+  top:0;
+  left:0;
+  border: solid red;
+  width: 500px;
+  height: 450px;
+  background-color: red;
+}
+
+.blue {
+  position: absolute;
+  top:0;
+  right:0;
+  border:solid #0000ff;
+  width: 500px;
+  height: 450px;
+  background-color: blue;
+}
+
+.green {
+  position: absolute;
+  bottom:0;
+  left:0;
+  border:solid green;
+  width: 500px;
+  height: 450px;
+  background-color: green;
+}
+
+.pink {
+  position: absolute;
+  bottom:0;
+  right:0;
+  border:solid pink;
+  width: 500px;
+  height: 450px;
+  background-color: pink;
+}
+
+.test1 {
+  opacity: 0.5;
+}
